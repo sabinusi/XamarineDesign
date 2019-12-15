@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FromMicrosoft.MainPage"
+            >
+
+    <StackLayout Padding="10" >
+        <Label Text="nyc_photograph" FontSize="20" FontAttributes="Bold" />
+        <StackLayout Padding="-10,10,-10,0">
+            <Image Aspect="AspectFill"  BackgroundColor="AliceBlue" Source="io.gif"/>
+        </StackLayout>
+       
+      
+       
+        <StackLayout Orientation="Horizontal" Padding="0,10">
+            <Label Text="Like" TextColor="Blue" x:Name="like"/>
+            <Label Text="Comment" TextColor="Blue"/>
+            <Label Text="Share" TextColor="Blue"/>
+          
+
+        </StackLayout>
+        <BoxView Color="#f0f0f0" HeightRequest="1"/>
+        <Label Text="700 likes" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
+        <Label Text="This is a short from yesterday in skanor when drving home ,form couple od days of working dernmark."/>
+        <Slider x:Name="slider"/>
+    </StackLayout>
+    
+
+</ContentPage>
