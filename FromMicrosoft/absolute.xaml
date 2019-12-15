@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FromMicrosoft.absolute">
+    <AbsoluteLayout>
+        <BoxView BackgroundColor="#f7f7f7"
+                 AbsoluteLayout.LayoutBounds="1,0,1,0.3" AbsoluteLayout.LayoutFlags="All">
+            
+        </BoxView>
+        <Label Text="$11.95"
+               FontSize="50"
+               AbsoluteLayout.LayoutBounds="0.5,0.1,200,100" 
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               />
+        <Button Text="Add $77.89"
+                AbsoluteLayout.LayoutBounds="0.51,0.2,0.8,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"  
+                />
+        <Label Text="Why pay for a rent"
+               
+               FontSize="30"
+               FontAttributes="Bold"
+               AbsoluteLayout.LayoutBounds="1,0.4,0.8,50"
+               AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+               />
+        <Label Text="Because you can reach people who are not"
+               FontSize="30"
+                AbsoluteLayout.LayoutBounds="1,0.54,0.8,50"
+               AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+               
+               />
+        <Label Text="Skype by call mobile and landline"
+                FontSize="30"
+                AbsoluteLayout.LayoutBounds="1,0.58,0.8,50"
+               AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+               />
+        <Label Text="numbeers or spend sms ,at low cost"/>
+
+
+    </AbsoluteLayout>
+</ContentView>
