@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#127ac7"
+             x:Class="FromMicrosoft.Grid2">
+    <Grid Padding="10,5,5,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label  Grid.Row="0" FontAttributes="Bold" FontSize="30" TextColor="White" HorizontalOptions="Center" Grid.Column="0" VerticalOptions="End" Text="Welcome to Xamarine" />
+        <Label Grid.Row="1" FontAttributes="Bold" FontSize="20" TextColor="Wheat" HorizontalOptions="Center" Grid.Column="0" Text="Cross platform made easy"/>
+        <Button BackgroundColor="#1dabf0" Grid.Row="2"  Grid.Column="0" Text="Login"/>
+        <Button  BackgroundColor="#1dabf0" Grid.Row="3" Grid.Column="0" Text="Register"/>
+    </Grid>
+</ContentView>
