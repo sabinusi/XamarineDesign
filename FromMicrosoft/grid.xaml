@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FromMicrosoft.grid">
+    <Grid Padding="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            
+            
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="1" 
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               FontSize="30"
+               VerticalTextAlignment="Center"
+               TextColor="Black"
+               Text="123"/>
+        <Button Grid.Row="1" Grid.Column="0"   Text="1"/>
+       <Button Grid.Row="1" Grid.Column="1" Text="2"/>
+       <Button Grid.Row="1" Grid.Column="2" Text="3"  />
+        
+        <Button Grid.Row="2" Grid.Column="0" Text="4"/>
+        <Button Grid.Row="2" Grid.Column="1" Text="5"/>
+        <Button Grid.Row="2" Grid.Column="2" Text="6"  />
+        
+        <Button Grid.Row="3" Grid.Column="0" Text="7"/>
+        <Button Grid.Row="3" Grid.Column="1" Text="8"/>
+        <Button Grid.Row="3" Grid.Column="2" Text="9"  />
+        
+        
+        <Button Grid.Row="4" Grid.Column="1"  Text="0"  />
+
+        <Button Grid.Row="5" BackgroundColor = "#96ca2d" Grid.ColumnSpan="3"  Text="Dial"/>
+
+
+    </Grid>
+</ContentView>

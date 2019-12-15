@@ -26,6 +26,7 @@
         <Label Text="700 likes" FontSize="16" TextColor="Black" FontAttributes="Bold"/>
         <Label Text="This is a short from yesterday in skanor when drving home ,form couple od days of working dernmark."/>
         <Slider x:Name="slider"/>
+        
     </StackLayout>
     
 
